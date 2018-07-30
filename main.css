@@ -1,0 +1,130 @@
+.Diego{
+    background: orange;
+}
+header {
+    color: black;
+}
+#navigate {
+    color: red;
+    background: gold;
+    display: flex;
+    height: 30%;
+    border-bottom: black double 2em;
+    border-top: black double 2em;
+}
+#navigate > h1 {
+   margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: orange;
+}
+nav {
+    float: right;
+    width: 30%;
+    height: 300px; 
+    background: purple;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+article {
+    float: center;
+    padding: 10px;
+    width: 70%;
+    background-color: red;
+    height: 300px; 
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100px;
+        height: auto;
+}
+#container{
+    width: 800px;
+    overflow: hidden;
+}
+#sliderbox{
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img{
+    float: left;
+}
+}
+@keyframes slideranimation {
+     0%
+     {
+         left: 0px;
+     }
+     20% 
+     {
+         left: 0px;
+     }
+     25%
+     {
+         left: -800px;
+     }
+     45%
+     {
+         left: -800px;
+     }
+     50%
+     {
+         left: -1600px;
+     }
+     70%
+     {
+         left: -1600px;
+     }
+     75%
+     {
+         left: -2400px;
+     }
+    }
+body {
+    background-image: url("travis.jpg")
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

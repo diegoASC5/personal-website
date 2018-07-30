@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyWorld</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</style>
+</head>
+<body class='The Master'>
+     <header>
+            <canvas id="myCanvas" width="500" height="100" style="border:1px solid black;">
+                </canvas>
+                <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("3d");
+                        
+                        // Create gradient
+                        var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+                        grd.addColorStop(0,"red");
+                        grd.addColorStop(1,"white");
+                        
+                        // Fill with gradient
+                        ctx.fillStyle = grd;
+                        ctx.fillRect(10,10,150,80);
+                        </script>
+         <h1>Diego's World</h1>
+<p>Classfied &copy;</p>
+         </header>
+         <nav id='navigate'>
+             <h1> Home</h1>
+             <div class="dropdown">
+                 <span>Home</span>
+                    <div class="dropdown-content">
+                      <p>Videos</p>
+                      <p>Bio</p>
+                      <p>Pictures</p>
+                    </div>
+                  </div>
+
+             <h1>About</h1> 
+             <div class="dropdown">
+                 <span>About</span>
+                    <div class="dropdown-content">
+                      <p>Me</p>
+                      <p>My Website</p>
+                    </div>
+                  </div>
+
+              <h1>Project</h1> 
+              <div class="dropdown">
+              <span>Project</span>
+                    <div class="dropdown-content">
+                      <p>Life</p>
+                      <p>Code</p>
+                    </div>
+                  </div>
+              <h1>Personal Interests</h1>
+              <span>Personal Interests</span> 
+              <div class="dropdown">
+                    <div class="dropdown-content">
+                      <p>Art</p>
+                      <p>Video Games</p>
+                      <p>Football</p>
+                    </div>
+                  </div>
+
+            </nav>
+            <h2>Im Different</h2>
+            <p>AWGE.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qnh4FQNCpWs?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+            <p>Learn Your Facts</p>
+            <header>
+                <h2>Drip isn't just fashion it's art.</h2>
+            </header>
+            <button onclick="enableAutoplay()" type="button">Enable autoplay</button>
+            <button onclick="disableAutoplay()" type="button">Disable autoplay</button>
+            <button onclick="checkAutoplay()" type="button">Check autoplay status</button><br> 
+            <audio controls>
+                    <source src="Asap.mp3?autoplay=1" type="audio/mpeg">
+                  </audio>
+                  <script>
+                      function enableAutoplay() { 
+             vid.autoplay = true;
+             vid.load();
+}
+
+                 function disableAutoplay() { 
+               vid.autoplay = false;
+                vid.load();
+} 
+
+               function checkAutoplay() { 
+              alert(vid.autoplay);
+} 
+                  </script>
+            <section>
+                    <nav>
+                            <ul>
+                              <li><a href="#">Goat'd uo</a></li>
+                              <li><a href="#">Vlone Flex</a></li>
+                              <li><a href="#">Ya Digg</a></li>
+                              <iframe width="360" height="200" src="https://www.youtube.com/embed/KYdds15hAug?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                              </iframe>
+                            </ul>
+                          </nav>
+                          
+                          <article>
+                            <h1>Biggest Icon</h1>
+                            <p>We Next Up.</p>
+                            <p>412.</p>
+                            <h2>The Legend's Page</h2>
+                            <p><a href="https://www.instagram.com/buwrrrr/?hl=en/">Visit my instagram</a></p>
+                            <p><a href="https://account.xbox.com/en-us/Profile?xr=socialtwistnav"> Add me on xbox</a></p>
+                          </article>
+                          <div id="container">
+                              <div id="sliderbox">
+                                  <img src="vlone-spring.jpg"/>
+                                  <img src="vlone.jpg"/>
+                                  <img src="bur.jpg"/>
+                                  <img src="astro.jpg"/>
+                                  <img src="or1.jpg"/>
+                                  </div>
+                                  </div>
+                        </section>
+            <footer>
+                <img src= "Diego.jpg" alt="Diego Williams"></img>
+                <p>GG</p>
+            </footer>
+            <html>
+<head>
+        </body>
+</html>
